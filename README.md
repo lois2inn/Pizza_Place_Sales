@@ -14,7 +14,10 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
 ## Analysis
 
-- The Resources folder contains CSV files needed for data exploration. SQL is used to explore the data. DDL statements load data into PostGreSQL database.
+- The Resources folder contains CSV files needed for data exploration. SQL is used to explore the data.
+- The Entity Relationship Diagram is shown below: 
+<img src="Resources/images/pizza_sales_erd.png" width="500"/>
+- DDL statements load data into PostGreSQL database.
 
 
 
