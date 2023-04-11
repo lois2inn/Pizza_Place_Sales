@@ -5,12 +5,13 @@
 This project uses a year's worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas served, with additional details on the type, size, quantity, price, and ingredients. The following questions will be answered:
 - How many customers do we have each day? Are there any peak hours?
 - How many pizzas are typically in an order? Do we have any bestsellers?
-- How much money did we make this year? Can we indentify any seasonality in the sales?
+- How much money did we make this year? Can we identify any seasonality in the sales?
 - Are there any pizzas we should take of the menu, or any promotions we could leverage?
 
 ## Resources
 
-[Link](https://www.mavenanalytics.io/data-playground) to datasets used.
+- PostgreSQL, pgAdmin
+- Datasets used: [Link](https://www.mavenanalytics.io/data-playground)
 
 ## Analysis
 
@@ -18,7 +19,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
 ### Data Exploration with SQL
 
-- Using DDL statements, the data in CSV files are loaded into PostgreSQL database.
+- Using DDL statements, the data in CSV files is loaded into PostgreSQL database.
 - The Entity Relationship Diagram is shown below:
 
  <img src="Resources/images/pizza_sales_erd.png" width="500"/>
@@ -55,7 +56,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
     </tr>
     <tr>
       <td><img src="Resources/images/sales.png" width="500"/></td>
-      <td><img src="Resources/images/seasonality.png" width="500"/></td>
+      <td><img src="Resources/images/monthly_sales.png" width="500"/></td>
     </tr>
   </table>
 
@@ -63,10 +64,10 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
   <table>
    <tr>
       <th>Least sold pizzas</th>
-      <th>Promotions</th>
+      <th>Least ordered pizzas</th>
     </tr>
     <tr>
-      <td><img src="Resources/images/least_sold.png" width="500"/></td>
-      <td><img src="Resources/images/promotions.png" width="500"/></td>
+      <td><img src="Resources/images/least_sold.png" width="600"/></td>
+      <td><img src="Resources/images/least_orders.png" width="400"/></td>
     </tr>
   </table>
