@@ -23,7 +23,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
  <img src="Resources/images/pizza_sales_erd.png" width="500"/>
 
-- Since we do not have customer data available, orders received per day are calculated.
+- Since we do not have customer data available, orders received per day are calculated. The peak hours for pizza sales in a day are 12:00pm, 1:00 pm and 6:00pm. 
   <table>
    <tr>
      <th>Orders received per day</th>
@@ -42,16 +42,16 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
       <th>Best sellers</th>
     </tr>
     <tr>
-      <td><img src="Resources/images/pizza_numbers.png" width="500"/></td>
-      <td><img src="Resources/images/pizza_bestsellers.png" width="500"/></td>
+      <td><img src="Resources/images/pizza_numbers.png" width="600"/></td>
+      <td><img src="Resources/images/pizza_bestsellers.png" width="400"/></td>
     </tr>
   </table>
 
--
+- The store recorded an annual sales of $817,860.
   <table>
     <tr>
-     <th>Annual Sales</th>
-      <th>Seasonality</th>
+     <th>Annual sales</th>
+      <th>Seasonality in sales</th>
     </tr>
     <tr>
       <td><img src="Resources/images/sales.png" width="500"/></td>
@@ -59,7 +59,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
     </tr>
   </table>
 
-- 
+- The Greek style pizza in XXL size is the least sold pizzas in the store. Small Calabrese and Small Chicken Alfredo pizzas follow in line. 
   <table>
    <tr>
       <th>Least sold pizzas</th>
