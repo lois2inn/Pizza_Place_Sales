@@ -50,11 +50,11 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
     </tr>
   </table>
 
-- The store recorded an annual sales of $817,860.
+- The store recorded an annual sales of $817,860. There is no huge fluctuations in sales numbers generated for monthly sales analysis. To make a conclusion about seasonality in sales, the data should have information over 2-4 years of sales instead of just a year.
   <table>
     <tr>
      <th>Annual sales</th>
-      <th>Seasonality in sales</th>
+      <th>Monthly sales</th>
     </tr>
     <tr>
       <td><img src="Resources/images/sales.png" width="500"/></td>
@@ -62,7 +62,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
     </tr>
   </table>
 
-- The Greek style pizza in XXL size is the least sold pizzas in the store. Small Calabrese and Small Chicken Alfredo pizzas follow in line. 
+- The Greek style pizza in XXL size is the least sold pizzas in the store. Small Calabrese and Small Chicken Alfredo pizzas follow in line. The store can make decisions to remove these items off the menu or tweak the recipe and promote these pizzas for lower prices.
   <table>
    <tr>
       <th>Least sold pizzas</th>
