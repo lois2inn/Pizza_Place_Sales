@@ -1,5 +1,7 @@
 # Pizza_Place_Sales
 
+<img src="Resources/images/pizza_1280.jpg" width="1000" height="350"/>
+
 ## Overview
 
 This project uses a year's worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas served, with additional details on the type, size, quantity, price, and ingredients. The following questions will be answered:
@@ -67,7 +69,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
       <th>Least ordered pizzas</th>
     </tr>
     <tr>
-      <td><img src="Resources/images/least_sold.png" width="600"/></td>
-      <td><img src="Resources/images/least_orders.png" width="400"/></td>
+      <td><img src="Resources/images/least_sold.png" width="500"/></td>
+      <td><img src="Resources/images/least_ordered.png" width="400"/></td>
     </tr>
   </table>
