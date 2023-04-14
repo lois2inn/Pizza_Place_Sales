@@ -21,7 +21,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
 ### Data Exploration with SQL
 
-- Using DDL statements, the data in CSV files is loaded into PostgreSQL database.
+- Using DDL statements, the data in CSV files is loaded into PostgreSQL database. The SQL scripts are housed in Resources/sql folder.
 - The Entity Relationship Diagram is shown below:
 
  <img src="Resources/images/pizza_sales_erd.png" width="500"/>
