@@ -45,7 +45,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
       <th>Best sellers</th>
     </tr>
     <tr>
-      <td><img src="Resources/images/pizza_numbers.png" width="600"/></td>
+      <td><img src="Resources/images/pizza_count.png" width="500"/></td>
       <td><img src="Resources/images/pizza_bestsellers.png" width="400"/></td>
     </tr>
   </table>
@@ -68,6 +68,6 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
       <th>Least sold pizzas</th>
     </tr>
     <tr>
-      <td><img src="Resources/images/least_sold.png" width="500"/></td>
+      <td><img src="Resources/images/least_sold.png" width="300"/></td>
     </tr>
   </table>
