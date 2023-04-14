@@ -2,14 +2,13 @@
 
 -- Number of pizzas typically in an order
 SELECT 
-	SUM(od.pizza_count)/COUNT(DISTINCT(order_id))
+	ROUND(SUM(od.quantity)/COUNT(od.order_id)) AS pizza_count
 FROM(
-	SELECT 
-		order_id, 
-		COUNT(*) AS pizza_count
+	SELECT order_id, 
+		SUM(quantity) AS quantity 
 	FROM order_details
-	GROUP BY order_id) od;
-
+	GROUP BY order_id) AS od;
+	
 -- Best selling pizza
 SELECT 
 	pizza_id, 
