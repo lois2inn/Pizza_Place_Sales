@@ -1,6 +1,6 @@
 # Pizza_Place_Sales
 
-<img src="Resources/images/pizza_1280.jpg" width="1000" height="350"/>
+<img src="Resources/images/pizza_1280.jpg" width="1000" height="325"/>
 
 ## Overview
 
@@ -76,5 +76,5 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
 ### Data Visualization with Tableau
 
-- With Tableau Public, a dashboard is created from the patterns and insights discovered.
+- With Tableau Public, a dashboard is created from the patterns discovered. The insights gathered from SQL are the same with that of Tableau except that they are visually portrayed below. 
  [<img src="Resources/images/Pizza_Sales_Dashboard.png" width="1000"/>](https://public.tableau.com/app/profile/lois2018/viz/Pizza_Sales_Dashboard/Pizza_Place_Sales)
