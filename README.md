@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project uses a year's worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas served, with additional details on the type, size, quantity, price, and ingredients. The following questions will be answered:
+This project uses a year's worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas served, with additional details on the type, size, quantity, price, and ingredients. Using data exploration techniques, the following questions will be answered:
 - How many customers do we have each day? Are there any peak hours?
 - How many pizzas are typically in an order? Do we have any bestsellers?
 - How much money did we make this year? Can we identify any seasonality in the sales?
@@ -13,10 +13,12 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 ## Resources
 
 - PostgreSQL, pgAdmin
+- Tableau Public
 - Datasets used: [Link](https://www.mavenanalytics.io/data-playground)
 
 ## Analysis
 
+- The data is explored with SQL and a visualization with Tableau is created.
 - The Resources folder contains CSV files needed for data exploration. 
 
 ### Data Exploration with SQL
@@ -71,3 +73,8 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
       <td><img src="Resources/images/least_sold.png" width="300"/></td>
     </tr>
   </table>
+
+### Data Visualization with Tableau
+
+- With Tableau Public, a dashboard is created from the patterns and insights discovered.
+ [<img src="Resources/images/Pizza_Sales_Dashboard.png" width="1000"/>](https://public.tableau.com/app/profile/lois2018/viz/Pizza_Sales_Dashboard/Pizza_Place_Sales)
