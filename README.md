@@ -14,16 +14,19 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
 - PostgreSQL, pgAdmin
 - Tableau Public
+- Python, Pandas, Matplotlib, Seaborn
 - Datasets used: [Link](https://www.mavenanalytics.io/data-playground)
 
 ## Analysis
 
-- The data is explored with SQL and a visualization with Tableau is created.
+- Data Exploration is achieved with SQL. The SQL scripts are housed in Resources/sql folder.
+- An attempt is made to explore and visualize data with Python extensions. Jupyter notebooks reside in Notebooks folder.
+- Tableau is also used for Data Visualizations.
 - The Resources folder contains CSV files needed for data exploration. 
 
 ### Data Exploration with SQL
 
-- Using DDL statements, the data in CSV files is loaded into PostgreSQL database. The SQL scripts are housed in Resources/sql folder.
+- Using DDL statements, the data in CSV files is loaded into PostgreSQL database. 
 - The Entity Relationship Diagram is shown below:
 
  <img src="Resources/images/pizza_sales_erd.png" width="500"/>
@@ -78,3 +81,7 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
 - With Tableau Public, a dashboard is created from the patterns discovered. The insights gathered from SQL are the same with that of Tableau except that they are visually portrayed below. 
  [<img src="Resources/images/Pizza_Sales_Dashboard.png" width="1000"/>](https://public.tableau.com/app/profile/lois2018/viz/Pizza_Sales_Dashboard/Pizza_Place_Sales)
+
+### Data Exploration and Visualization with Python extensions
+
+
