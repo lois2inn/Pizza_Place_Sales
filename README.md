@@ -84,4 +84,8 @@ This project uses a year's worth of sales from a fictitious pizza place, includi
 
 ### Data Exploration and Visualization with Python extensions
 
+- The data exploration code resides in Notebooks/ folder.
+- The CSV files are loaded into Pandas dataframes. Each data source is explored individually and the four frames are merged into a single file. The merged file resides as Resources/pizza_place_sales.csv
+
+
 
